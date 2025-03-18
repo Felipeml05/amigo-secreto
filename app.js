@@ -10,7 +10,7 @@ function agregarAmigo(){
         lista.innerHTML += "<li>" + nombre + "</li>";
         limpiarCaja();
     }
-};
+}
  
 function sortearAmigo(){
     let azar = Math.floor(Math.random()*listaNombres.length);
